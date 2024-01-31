@@ -1,5 +1,6 @@
-# Web-Scraping
-Scrape text from the web to be used as training data.
+# FineTuned LLM
 
-We are going to rely on Scrapy library.
-The content extracted from the Web is related to skills needed by HR employees.
+This repo covers the whole process we did to generate a fine tuned LLM:
+- **Web Scraping**: the notebook contains the code to extract the text from identified URLs. The content extracted from the Web is related to skills needed by HR employees.
+- **Docs elaboration**: the notebook contains all the processing steps to go from the raw text extracted from the web to the target format for LoRA fine tuning 
+
