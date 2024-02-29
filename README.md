@@ -9,4 +9,5 @@ This repo covers the whole process we did to generate a fine tuned LLM:
     - Perform the actual fine tuning
     - Run the tuned model on the Test set
     - Compare the results with the base model
-
+- **Generation_with_Tuned_model**: this notebook was created to run the tuned model for inference directly on Google Colab, so that everyone can try it out.
+- **tuned_model**: this folder contains the tuned model. The above mentioned Generation_with_Tuned_model notebook directly calls this folder to get the tuned model.
